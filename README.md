@@ -9,10 +9,10 @@ you can either:
 
 Copy paste this directly into a poweshell terminal, then hit enter
 ```
-while($true){[System.Windows.Forms.SendKeys]::SendWait("{F15}");Start-Sleep -Seconds 59}
+try{while($true){(New-Object -ComObject WScript.Shell).SendKeys('+{F15}');Start-Sleep -Seconds 59}}catch{Write-Error $_}
 ```
 
-download the decaf.ps1 cd to directory containing said file and execute it like this
+download the decaf.ps1 > cd to directory containing said file > run
 ```
 ./decaf.ps1
 ```
