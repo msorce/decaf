@@ -1,4 +1,4 @@
-# Decaf, a caffeiene alternative
+# Decaf - a caffeiene alternative
 ![decaf-coffee-2017433437](https://github.com/user-attachments/assets/bedc2347-743b-4949-ad32-204dc141fb07)
 
 ## Getting Started
