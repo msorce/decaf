@@ -7,7 +7,7 @@ _a "Caffeine" alternative_
 
 **There are two ways to run Decaf**
 
-1. Copy paste this directly into a poweshell terminal, then hit enter
+1. Copy paste this directly into a poweshell terminal > hit enter
 ```
 try{while($true){(New-Object -ComObject WScript.Shell).SendKeys('+{F15}');Start-Sleep -Seconds 59}}catch{Write-Error $_}
 ```
