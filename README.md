@@ -12,7 +12,7 @@ _a "Caffeine" alternative_
 try{while($true){(New-Object -ComObject WScript.Shell).SendKeys('+{F15}');Start-Sleep -Seconds 59}}catch{Write-Error $_}
 ```
 
-2. Download the decaf.ps1 file > cd to directory containing said file > run
+2. Download the [decaf.ps1](https://github.com/msorce/decaf/blob/main/decaf.ps1) file > cd to directory containing said file > run
 ```
 ./decaf.ps1
 ```
